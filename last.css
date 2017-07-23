@@ -1,0 +1,20 @@
+body{
+	
+        background:url(b1.jpg);
+	background-repeat:no-repeat;
+	background-size:100%,100%;
+	color:#E5830D;
+	 height: 100%;
+    margin-bottom: 30px;
+position: relative;
+}
+
+#header {
+    height: 30px;
+}
+#footer {
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+}
+

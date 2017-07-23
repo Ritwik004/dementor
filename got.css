@@ -1,0 +1,20 @@
+body{
+	background:url(got.jpg);
+	background-repeat:no-repeat;
+	background-size:100%,100%;
+}
+form {
+	position:absolute;
+	top: 370px;
+	left:70px;
+}
+h1 {
+		position:absolute;
+		top: 140px;
+		left:15px;
+	}
+div{
+	position:absolute;
+	top:250px;
+	left:80px;
+}

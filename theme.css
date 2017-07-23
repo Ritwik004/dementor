@@ -1,0 +1,59 @@
+.city {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid white;
+}   
+
+body {
+	background:#000000;
+	background-repeat:no-repeat;
+	background-size:100%,100%;
+	background-attachment: fixed;
+    background-position: center; 
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    align:center;
+	color:#E5830D;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	 
+    text-justify: inter-word;
+}
+h1 {
+	color:#E5830D;
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+/*
+.first{
+	/*background-image:url('jon.jpg');
+	background-repeat:no-repeat;
+	background-size:100%,100%;
+    margin:50px 0px; padding:0px;
+}
+
+.menu{
+	background-image:url('don.jpeg');
+	background-repeat:no-repeat;
+	background-size:100%,100%;
+    margin:50px 0px; padding:0px;
+}*/
+ul{
+list-style-type:none;
+}
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
